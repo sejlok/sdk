@@ -1,0 +1,40 @@
+/* Smooth scrolling behavior */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Hero Section Styling */
+.jumbotron {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 4rem 2rem;
+}
+
+/* Card Hover Effect */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Section Padding Adjustments */
+section {
+    padding: 60px 0;
+}
+
+/* Icon Colors */
+.card i, #why-choose-us i {
+    color: #007bff;
+}
+
+/* Social Media Icons */
+#contact a {
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #0056b3;
+}
