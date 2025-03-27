@@ -3,49 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDK NanoTech - Home</title>
+    <title>SDK NanoTech Pvt. Ltd.</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header with Navigation -->
     <header>
-        <nav class="navbar">
-            <div class="logo">SDK NanoTech</div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">SDK NanoTech</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-choose-us">Why Choose Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Innovating the Future with Nanotechnology</h1>
-            <p>Leading the way in advanced materials and sustainable solutions.</p>
-            <a href="products.html" class="cta-button">Discover Our Work</a>
+    <section id="hero" class="jumbotron text-center">
+        <h1 class="display-4">Welcome to SDK NanoTech Pvt. Ltd.</h1>
+        <p class="lead">Leading Supplier of High-Quality Semiconductors and Electronic Components</p>
+        <a class="btn btn-primary btn-lg" href="#products" role="button">Explore Our Products</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">SDK NanoTech Pvt. Ltd. is a premier supplier of high-quality electronic components and semiconductors in India. Established with a vision to drive technological innovation, we provide top-tier products and services to support industries nationwide.</p>
+            <p class="text-center"><strong>CIN:</strong> U46521DL2024PTC433803 | <strong>GSTIN:</strong> 07ABNCS8509H1ZV</p>
         </div>
     </section>
 
-    <!-- Main Content -->
-    <section class="content-section">
-        <h2>Welcome to SDK NanoTech</h2>
-        <p>We specialize in cutting-edge nanotechnology solutions for industries worldwide, pushing the boundaries of science and innovation.</p>
+    <!-- Products Section -->
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-microchip fa-3x mb-3"></i>
+                            <h5 class="card-title">Integrated Circuits (ICs)</h5>
+                            <p class="card-text">Sourced from trusted manufacturers, our ICs ensure reliable performance across various applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-bolt fa-3x mb-3"></i>
+                            <h5 class="card-title">MOSFETs</h5>
+                            <p class="card-text">High-efficiency MOSFETs designed for power management and switching.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-exchange-alt fa-3x mb-3"></i>
+                            <h5 class="card-title">Transistors</h5>
+                            <p class="card-text">Essential for amplifying and switching electronic signals in diverse circuits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-square-full fa-3x mb-3"></i>
+                            <h5 class="card-title">Capacitors</h5>
+                            <p class="card-text">Offering stability and filtering, including standard and poly capacitors.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-lightbulb fa-3x mb-3"></i>
+                            <h5 class="card-title">LEDs</h5>
+                            <p class="card-text">Energy-efficient LEDs for lighting and display applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-battery-full fa-3x mb-3"></i>
+                            <h5 class="card-title">Batteries</h5>
+                            <p class="card-text">Reliable, high-performance batteries for a range of devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-cut fa-3x mb-3"></i>
+                            <h5 class="card-title">Fuses</h5>
+                            <p class="card-text">Protecting circuits from overcurrent for safe operation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-thermometer fa-3x mb-3"></i>
+                            <h5 class="card-title">PTCs</h5>
+                            <p class="card-text">Positive Temperature Coefficients for overcurrent protection.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-sliders-h fa-3x mb-3"></i>
+                            <h5 class="card-title">Trimpots</h5>
+                            <p class="card-text">Adjustable resistors for precise circuit tuning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-ellipsis-h fa-3x mb-3"></i>
+                            <h5 class="card-title">Resistors</h5>
+                            <p class="card-text">Ensuring accurate current control and circuit stability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shield-alt fa-3x mb-3"></i>
+                            <h5 class="card-title">MOVs</h5>
+                            <p class="card-text">Metal Oxide Varistors for surge protection against voltage spikes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Why Choose Us</h2>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <i class="fas fa-check-circle fa-3x mb-3"></i>
+                    <h5>Quality Assurance</h5>
+                    <p>Rigorous checks ensure top performance and reliability.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fas fa-user-shield fa-3x mb-3"></i>
+                    <h5>Expert Support</h5>
+                    <p>Tailored technical assistance from our dedicated team.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fas fa-tags fa-3x mb-3"></i>
+                    <h5>Competitive Pricing</h5>
+                    <p>Affordable pricing without compromising quality.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <i class="fas fa-tools fa-3x mb-3"></i>
+                    <h5>Custom Solutions</h5>
+                    <p>Collaborative development for your specific needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Address:</strong> D323-A, Shop No. 3, D Block, Laxmi Nagar, East Delhi, Delhi, 110092</p>
+                    <p><strong>Phone/WhatsApp:</strong> 8595832426</p>
+                    <p><strong>Email:</strong> <a href="mailto:SDKNanoTech@gmail.com">SDKNanoTech@gmail.com</a></p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <a href="https://www.facebook.com/SDKNanoTech" target="_blank" class="mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/SDKNanoTech" target="_blank" class="mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://www.x.com/SDKNanoTech" target="_blank" class="mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="products.html">Products</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <p>&copy; 2025 SDK NanoTech. All rights reserved.</p>
-        </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 SDK NanoTech Pvt. Ltd. All rights reserved.</p>
     </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
 </html>
