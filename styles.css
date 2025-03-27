@@ -3,37 +3,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Header Hover Effects */
-.navbar-nav .nav-link {
-    transition: color 0.3s;
-}
-.navbar-nav .nav-link:hover {
-    color: #00c6ff !important;
-}
-
-/* Footer Styling */
-footer i {
-    margin-right: 8px;
-}
-
-/* Contact Section Styling */
-#contact form {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-}
-#contact i {
-    color: #007bff;
-    margin-right: 10px;
-}
-.blockquote {
-    font-style: italic;
-    color: #555;
-}
-.blockquote-footer {
-    color: #777;
-}
-
 /* Hero Section Styling */
 .jumbotron {
     background: linear-gradient(to right, #007bff, #00c6ff);
@@ -61,11 +30,29 @@ section {
 }
 
 /* Social Media Icons */
-#contact a {
-    color: #007bff;
+footer a {
+    color: #fff;
     transition: color 0.3s;
 }
 
-#contact a:hover {
-    color: #0056b3;
+footer a:hover {
+    color: #00c6ff;
+}
+
+/* Contact Section Cards */
+#contact .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Form Styling */
+#contact form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Navigation Link Hover Effect */
+.navbar-nav .nav-link:hover {
+    color: #00c6ff;
 }
